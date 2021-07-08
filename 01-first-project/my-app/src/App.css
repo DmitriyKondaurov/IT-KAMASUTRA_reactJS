@@ -1,6 +1,5 @@
 .App {
   background-color: black;
-  color: #61dafb;
   text-align: center;
 }
 
@@ -37,4 +36,46 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.app-wrapper {
+  display: grid;
+  grid-template-rows: 60px 1fr 1fr;
+  grid-template-columns: 2fr 10fr;
+  grid-template-areas:
+  "h h"
+  "nav c"
+  "f f";
+  width: 1200px;
+  margin: 0 auto;
+
+}
+
+.app-wrapper img {
+  max-width: 100%;
+}
+
+.header {
+  grid-area: h;
+  background-color: green;
+}
+
+.header img {
+  width: 20px;
+}
+
+.nav {
+ grid-area: nav;
+  background-color: burlywood;
+}
+
+.content {
+  grid-area: c;
+  background-color: #61dafb;
+  
+}
+
+.footer {
+  grid-area: f;
+  background-color: #ccc;
 }
