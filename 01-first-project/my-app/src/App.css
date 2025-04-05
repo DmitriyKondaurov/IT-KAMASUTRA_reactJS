@@ -48,7 +48,7 @@
     "n c";
 }
 
-.app-header {
+.header {
   grid-area: h;
   background-color: lightblue;
 }
