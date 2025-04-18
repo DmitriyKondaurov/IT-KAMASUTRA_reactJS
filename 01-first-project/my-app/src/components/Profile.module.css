@@ -1,4 +1,4 @@
-.app-content {
+.app_content {
     grid-area: c;
     height:  100vh;
     background-color: lightgoldenrodyellow;
@@ -6,4 +6,8 @@
 
 .item {
     color: red;
+}
+
+.posts {
+    /*color: blue;*/
 }

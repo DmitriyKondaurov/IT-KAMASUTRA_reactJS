@@ -1,8 +1,12 @@
-.app-nav {
+.app_nav {
     grid-area: n;
     background-color: lightgreen;
 }
 
 .item a {
     color: white;
+}
+
+.item.active a {
+    color: gold;
 }
