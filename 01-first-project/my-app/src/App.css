@@ -47,20 +47,3 @@
     "h h"
     "n c";
 }
-
-.header {
-  grid-area: h;
-  background-color: lightblue;
-}
-
-.app-nav {
-  grid-area: n;
-  background-color: lightgreen;
-}
-
-.app-content {
-  grid-area: c;
-  height:  100vh;
-  background-color: lightgoldenrodyellow;
-}
-

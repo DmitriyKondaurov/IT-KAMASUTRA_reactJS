@@ -1,0 +1,9 @@
+.app-content {
+    grid-area: c;
+    height:  100vh;
+    background-color: lightgoldenrodyellow;
+}
+
+.item {
+    color: red;
+}
