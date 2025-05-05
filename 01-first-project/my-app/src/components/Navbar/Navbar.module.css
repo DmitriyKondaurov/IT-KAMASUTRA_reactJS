@@ -4,9 +4,10 @@
 }
 
 .item a {
-    color: white;
+    color: darkblue;
+    text-decoration: none;
 }
 
 .item.active a {
-    color: gold;
+    color: darkorange;
 }

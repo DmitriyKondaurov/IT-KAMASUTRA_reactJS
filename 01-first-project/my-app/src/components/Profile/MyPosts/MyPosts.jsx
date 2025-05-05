@@ -6,8 +6,8 @@ const MyPosts = () => {
     return (
         <div className={style.posts}>my posts
             <div>
-                <textarea name="newPostText" id="" cols="30" rows="10"></textarea>
-                <button>Add post</button>
+                <textarea name="newPostText" id="" cols="120" rows="10"></textarea>
+                <button className={style.addPost__btn}>Add post</button>
             </div>
            <Post/>
         </div>

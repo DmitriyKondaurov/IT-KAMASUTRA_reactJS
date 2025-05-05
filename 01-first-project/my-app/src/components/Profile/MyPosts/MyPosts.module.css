@@ -1,3 +1,7 @@
 .posts {
     /*color: blue;*/
 }
+
+.addPost__btn {
+    display: block;
+}
