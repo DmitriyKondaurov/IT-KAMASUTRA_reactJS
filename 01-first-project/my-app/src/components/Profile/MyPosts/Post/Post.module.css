@@ -1,3 +1,10 @@
+.post {
+    margin: 10px;
+    padding: 10px;
+    background-color: whitesmoke;
+    color: darkgreen;
+}
+
 .item img {
     width: 40px;
     border-radius: 20px;

@@ -2,6 +2,12 @@
     color: blue;
 }
 
+.posts textarea {
+    box-sizing: border-box;
+    resize: none;
+    width: 100%;
+}
+
 .addPost__btn {
     display: block;
 }
